@@ -1,0 +1,25 @@
+{
+  "name": "rawbot-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rawbotcoin/rawbot-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rawbotcoin/rawbot-website/issues"
+  },
+  "homepage": "https://github.com/rawbotcoin/rawbot-website#readme",
+  "dependencies": {
+    "newrelic": "^4.8.1",
+    "web3": "^1.0.0-beta.36",
+    "ws": "^6.0.0"
+  }
+}

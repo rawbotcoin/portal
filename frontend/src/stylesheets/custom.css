@@ -1,0 +1,45 @@
+div.whitepaper {
+    color: red;
+    margin-bottom: 15px;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    margin-right: 5px;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.fa:hover, .fab:hover, .fal:hover, .far:hover, .fas:hover {
+    opacity: 1;
+}
+
+.land {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    background-color: #000000;
+    z-index: 50;
+}
+
+.toggles {
+    position: absolute;
+    z-index: 100;
+    left: 20px;
+    bottom: 20px;
+    color: #aaaaaa;
+    display: none;
+}
+
+.header {
+
+}
+
+.steemit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    float: right;
+    min-height: 100vh;
+}
